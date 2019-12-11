@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tts_speaker">
+        <item>한국어 여성 상담원</item>
+        <item>영어 외국인 여성g</item>
+        <item>한국어 남자아이</item>
+        <item>한국어 여자아이</item>
+    </string-array>
+</resources>

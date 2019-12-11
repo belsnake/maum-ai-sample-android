@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Main_Activity">
+
+    <Button
+        android:id="@+id/Button_Mrc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI 독해 (MRC)"
+        />
+
+    <Button
+        android:id="@+id/Button_Stt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음성인식 (STT)"
+        />
+
+    <Button
+        android:id="@+id/Button_Tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음성생성 (TTS)"
+        />
+
+    <Button
+        android:id="@+id/Button_EngEduStt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영어교육 음성인식 (STT)"
+        />
+
+</LinearLayout>

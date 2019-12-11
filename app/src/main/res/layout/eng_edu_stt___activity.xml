@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    tools:context=".Sample.EngEduStt_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정답문장"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/Edit_Sentence"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#10000000"
+        android:text="I want to buy a ticket."
+        android:textSize="16sp"
+        android:paddingLeft="12dp"
+        />
+
+    <Button
+        android:id="@+id/Button_Exec"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="녹음 (STT 실행)"
+        android:textSize="16sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/Layer_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="사용자 발화"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/Text_UserText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="#10000000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="문장 점수"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/Text_Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="#10000000"
+            />
+
+        <Button
+            android:id="@+id/Button_Play"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="left"
+            android:text="듣기"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

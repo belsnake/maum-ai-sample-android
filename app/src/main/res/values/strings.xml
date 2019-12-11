@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">maum-ai-sample-android</string>
+
+    <string name="mrc_context">인공지능(AI) 전문기업 마인즈랩이 캐나다 3대 인공지능 연구기관 에이미(AMII: Alberta Machine Intelligence Institute)에 합류하고, 구글 딥마인드를 비롯한 세계 최고 수준의 AI 연구진과 함께 딥러닝 분야의 연구를 함께한다. 마인즈랩은 에이미의 회원사로서 에이미 소속의 연구진들과 함께 공동 연구를 추진한다. 인공지능 강국으로 평가받는 캐나다에서 엘리먼트AI(Element AI), 벡터 연구소(Vector Institute)와 함께 3대 인공지능 연구기관 중 하나로 꼽히는 에이미는 강화학습의 창시자 리차드 서튼 교수의 주도 아래 알파고를 개발한 구글 딥마인드와 앨버타 대학 등이 모여 각 분야에서의 딥러닝 연구를 활발하게 이끌고 있다.</string>
+    <string name="mrc_question">마인즈랩은 어디에 합류했나요?</string>
+</resources>
